@@ -14,6 +14,7 @@
 		E8953FAE207C939900CEA12F /* GradientColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8953FAD207C939900CEA12F /* GradientColorTests.m */; };
 		E8953FB9207C939900CEA12F /* GradientColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8953FB8207C939900CEA12F /* GradientColorUITests.m */; };
 		E8953FC8207C93C700CEA12F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8953FC7207C93C700CEA12F /* ViewController.m */; };
+		E8953FCC207C9DB900CEA12F /* UIImage+GradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E8953FCA207C9DB900CEA12F /* UIImage+GradientColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		E8953FBA207C939900CEA12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8953FC6207C93C700CEA12F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E8953FC7207C93C700CEA12F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E8953FCA207C9DB900CEA12F /* UIImage+GradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GradientColor.m"; sourceTree = "<group>"; };
+		E8953FCB207C9DB900CEA12F /* UIImage+GradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GradientColor.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		E8953F8E207C939900CEA12F = {
 			isa = PBXGroup;
 			children = (
+				E8953FC9207C9D9E00CEA12F /* DKQ GradientColor */,
 				E8953F99207C939900CEA12F /* GradientColor */,
 				E8953FAC207C939900CEA12F /* GradientColorTests */,
 				E8953FB7207C939900CEA12F /* GradientColorUITests */,
@@ -127,6 +131,15 @@
 				E8953FBA207C939900CEA12F /* Info.plist */,
 			);
 			path = GradientColorUITests;
+			sourceTree = "<group>";
+		};
+		E8953FC9207C9D9E00CEA12F /* DKQ GradientColor */ = {
+			isa = PBXGroup;
+			children = (
+				E8953FCB207C9DB900CEA12F /* UIImage+GradientColor.h */,
+				E8953FCA207C9DB900CEA12F /* UIImage+GradientColor.m */,
+			);
+			path = "DKQ GradientColor";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 				E8953FC8207C93C700CEA12F /* ViewController.m in Sources */,
 				E8953FA4207C939900CEA12F /* main.m in Sources */,
 				E8953F9C207C939900CEA12F /* AppDelegate.m in Sources */,
+				E8953FCC207C9DB900CEA12F /* UIImage+GradientColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
