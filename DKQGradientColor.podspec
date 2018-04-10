@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "DKQGradientColor"
   s.version      = "0.0.1"
-  s.summary      = "A short description of DKQGradientColor"
+  s.summary      = "A DKQGradientColor iOS"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/fenglingdeyi/GradientColor.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/fenglingdeyi/GradientColor.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-   s.frameworks = "UIKit","Foundation"
+   s.frameworks = "UIKit"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
